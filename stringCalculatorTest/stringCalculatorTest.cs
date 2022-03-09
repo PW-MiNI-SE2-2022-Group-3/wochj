@@ -17,7 +17,7 @@ namespace stringCalculatorTest
         [Theory]
         [InlineData("15", 15)]
         [InlineData("25", 25)]
-        [InlineData("0", 0)]
+        [InlineData("1", 0)]
         public void SingleNumberReturnTheValue(string input, int expectedResult)
         {
             int result = Calculator.SumString(input);
